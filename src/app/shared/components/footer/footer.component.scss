@@ -1,0 +1,17 @@
+footer{
+    background-color: rgb(27,29,40);
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    >img{
+        width:200px
+    }
+    >p{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.white{
+    color: white;
+}
