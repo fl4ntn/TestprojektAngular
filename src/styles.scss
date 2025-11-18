@@ -4,6 +4,18 @@
     scroll-behavior: smooth;
 }
 
+@mixin dFlex($jc: space-between, $ai: center, $g: 0px) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $g;
+}
+
+@mixin borderStyling($bStyle) {
+    border-radius: 8px;
+    border: 2px $bStyle black;
+}
+
 
 .fontRaleway {
     font-family: 'Raleway';
