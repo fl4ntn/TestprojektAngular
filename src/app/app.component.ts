@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import{ LandingPageComponent } from './landingPage/landingPage.component'
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { ImprintComponent } from './imprint/imprint.component';
     CommonModule,
     RouterOutlet,
     MainContentComponent,
+    LandingPageComponent,
     FooterComponent,
     ImprintComponent,
   ],
