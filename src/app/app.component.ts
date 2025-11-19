@@ -6,6 +6,9 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import{ LandingPageComponent } from './landingPage/landingPage.component'
 
+
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -21,5 +24,7 @@ import{ LandingPageComponent } from './landingPage/landingPage.component'
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'TestprojektAngular';
+
+
+
 }

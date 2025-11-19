@@ -9,19 +9,19 @@
 //     border-radius: 8px;
 //     border: 2px $bStyle black;
 // }
-
+@use "../../../_mixins" as m;
 
 nav {
     width: calc(100% - 64px);
     padding: 32px;
-    @include dFlex();
+    @include m.dFlex();
     >img {
         width: 64px;
         height: 64px;
     }
     >div {
         width: 400px;
-        @include dFlex();
+        @include m.dFlex();
         >a{
             &:hover{
                 color: rgb(139,0,0);
@@ -38,12 +38,12 @@ a {
 }
 
 .phone_btn{
-    @include dFlex();
+    @include m.dFlex();
     width: 140px;
     height: 28px;
     padding: 2px 8px;
     background-color: rgb(139,0,0);
-    @include borderStyling(solid);
+    @include m.borderStyling(solid);
     >img {
         width: 24px;
         height: 24px;
